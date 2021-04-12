@@ -12,7 +12,6 @@ myform.addEventListener('submit', function(e){
         method: 'post',
         headers: { 'Content-Type': 'application/json'},
             //'Content-Type': 'application/x-www-form-urlencoded' },
-        //body: formData
         body: JSON.stringify({
             numpa : numParag,
             tipo : tipo
@@ -20,11 +19,10 @@ myform.addEventListener('submit', function(e){
         })
         
     }).then(function(response){
-        return response.text(); // se colocar response.json não vai aparecer os \r\n
+        return response.json(); // se colocar response.json não vai aparecer os \r\n
     }).then(function(loremGerado){
-        let str = loremGerado.replace(/\\r\\n/gi, '\n');
-      
-        loremText.innerText = str
+        //let str = loremGerado.replace(/\\r\\n/gi, '\n');
+        loremText.innerText = loremGerado;
     }).catch(function(error){
         console.log(error)
     })
@@ -34,7 +32,7 @@ myform.addEventListener('submit', function(e){
   function copyText() {
     let elementText = loremText.textContent;
     navigator.clipboard.writeText(elementText)// retorna um promisse
-    .then(alert('Copiado com sucesso'));  // piscar texto, criar alerta?
+    .then(alert('Copiado com sucesso')); 
   }
 
   btnCopiar.addEventListener('click', copyText);
