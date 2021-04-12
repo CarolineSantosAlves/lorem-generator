@@ -24,7 +24,7 @@ myform.addEventListener('submit', function(e){
     }).then(function(loremGerado){
         let str = loremGerado.replace(/\\r\\n/gi, '\n');
       
-        loremText.innerText = str
+        loremText.innerHTML = str
     }).catch(function(error){
         console.log(error)
     })
