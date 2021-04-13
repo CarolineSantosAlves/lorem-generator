@@ -7,7 +7,6 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#Para">Executar</a> • 
  <a href="#licença">Licença</a> 
 
 </p>
