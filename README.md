@@ -7,8 +7,8 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Executar</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href="#Para">Executar</a> • 
+ <a href="#licença">Licença</a> 
 
 </p>
 
@@ -47,5 +47,5 @@ ___
 ## Licença
 Esse projeto está sobe a licença MIT
 
-Desenvolvido por Caroline Santos 
+Desenvolvido por Caroline Santos 👋 [Contato](https://www.linkedin.com/in/carol-santos-alves/)
 
