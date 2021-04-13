@@ -7,10 +7,13 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
+ <a href="#contribuicao">Executar</a> • 
  <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+
 </p>
+
+## Objetivo
+Uma aplicação capaz de gerar textos lorem ipsum aleatórios, o usuário pode escolher entre palavras, frases e parágrafos e informar a quantidade que deseja.
 
 <h4 align="center"> 
 	🏗  Status: Em Andamento 
@@ -40,5 +43,9 @@ Usei na construção desse projeto:
 * [Express](https://expressjs.com/pt-br/)
 * [lorem-ipsum](https://www.npmjs.com/package/lorem-ipsum)
 
-Desenvolvido por Csroline Santos 
+___
+## Licença
+Esse projeto está sobe a licença MIT
+
+Desenvolvido por Caroline Santos 
 
